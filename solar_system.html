@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Solar System Project</title>
+    <meta charset="UTF-8"> 
+    <meta name="description" content="Alexander Berry | Developer Portfolio">
+    <meta name="keywords" content="[HTML], [CSS], [Python], [LaTeX]">
+    <meta name="author" content="Alexander Berry">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <style>ul{list-style-type: none; margin: 0; padding: 0;}</style> -->
+</head>
+<body class="homecolor">
+    <div>
+        <!-- navigation -->
+        <ul class="navigation">
+            <li><a href="index.html">Homepage <i class="fa fa-home"></i></a></li>
+            <li class="dropdown">
+                <a class="active" href="projects.html">Projects <i class="fa fa-book"></i></a>
+                <div class="dropdown-content">
+                    <a class="active" href="solar_system.html">Solar System</a>
+                    <a href="wildfire.html">Wildfire</a>
+                    <a href="pendulum.html">Pendulum</a>
+                    <a href="codenation.html">CodeNation</a>
+                </div>
+            </li>
+            <li style="float:right"><a href="contactaboutme.html">About Me <i class="fa fa-address-card"></i></a></li>
+        </ul>
+    </div>    
+    <div class="projectlayoutmain">        
+        <div class="projectlayoutbanner">
+            <h1>Solar System Project</h1>            
+        </div>
+        <div class="projectlayoutinstitution">
+            <a href="https://www.lancaster.ac.uk/" target="_blank">
+            <h2>Lancaster University 
+                <img class="cover" src="images/lu-shield.svg" alt="Lancaster University logo" style="width: 40px; height:40px;"></h2>
+            </a>
+        </div>   
+        <div class="projectlayoutinfo">
+            <a href="https://github.com/apberry810/lu_physics_solar_system_sim" target="_blank"><img class="cover" src="images/solar-system-5680167.jpg" alt="the sun and the planets" style="width:80%; height: auto; border:2px groove rgb(75, 75, 75)"></a>
+            <p>This project was completed in November-December 2018 in approximately 3-4 weeks. This was the first project I had ever developed in Python and was only a few weeks after learning Python for the first time. I was tasked with creating a computer simulation of a complex physical system and to write a scientific report on my results. <br><br> The simulation modelled the major bodies of the solar system (the Sun, the planets and Pluto) gravitationally by solving the ordinary differential equations associated with the system. I solved these ordinary differential equations using iterative methods such as Euler's method and the Runge-Kutta methods. I wanted to compare different iterative methods to one another, to see which methods were more accurate or more time-consuming than others. <br><br> The simulation had 3-dimensional position and velocity vectors for each body. Using the positions and velocities, the simulation calculates the acceleration for each body due to gravity acting from all the other bodies in the system. Using this acceleration, I could calculate the next position and velocity vectors for the following timestep. <br><br>I measured the energy, momentum and angular momentum to see if they were conserved. If they were conserved, then the system should be following Newtonian phyiscs and the simulation would be accurate. I then wrote an 11-page report on my findings.<br><br>If you would like to see the source code, please follow this <a href="https://github.com/apberry810/lu_physics_solar_system_sim" target="_blank">github link<sup><i class="fa fa-external-link"></sup></i></a> or click on the image above.</p>
+        </div>
+    </div>
+</body>
+</html>

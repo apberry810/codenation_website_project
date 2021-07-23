@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Wildfire Group Project</title>
+    <meta charset="UTF-8"> 
+    <meta name="description" content="Alexander Berry | Developer Portfolio">
+    <meta name="keywords" content="[HTML], [CSS], [Python], [LaTeX]">
+    <meta name="author" content="Alexander Berry">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <style>ul{list-style-type: none; margin: 0; padding: 0;}</style> -->
+</head>
+<body class="homecolor">
+    <div>
+        <!-- navigation -->
+        <ul class="navigation">
+            <li><a href="index.html">Homepage <i class="fa fa-home"></i></a></li>
+            <li class="dropdown">
+                <a class="active" href="projects.html">Projects <i class="fa fa-book"></i></a>
+                <div class="dropdown-content">
+                    <a href="solar_system.html">Solar System</a>
+                    <a class="active" href="wildfire.html">Wildfire</a>
+                    <a href="pendulum.html">Pendulum</a>
+                    <a href="codenation.html">CodeNation</a>
+                </div>
+            </li>
+            <li style="float:right"><a href="contactaboutme.html">About Me <i class="fa fa-address-card"></i></a></li>
+        </ul>
+    </div>    
+    <div class="projectlayoutmain">        
+        <div class="projectlayoutbanner">
+            <h1>Wildfire Group Project</h1>            
+        </div>
+        <div class="projectlayoutinstitution">
+            <a href="https://www.lancaster.ac.uk/" target="_blank">
+            <h2>Lancaster University 
+                <img class="cover" src="images/lu-shield.svg" alt="Lancaster University logo" style="width: 40px; height:40px;"></h2>
+            </a>
+        </div>   
+        <div class="projectlayoutinfo">
+            <a href="https://github.com/apberry810/lu_physics_wildfire_sim" target="_blank"><img class="cover" src="images/firefighter-5799151.jpg" alt="sample code of solar system project" style="width:80%; height: auto; border:2px groove rgb(75, 75, 75)"></a>
+            <p>This project was completed in November-December 2018 in approximately 3 weeks. This was the first group project I had completed in Python. We were tasked with building any kind of simulation we wanted within a cellular automata framework. <a href="https://en.wikipedia.org/wiki/Cellular_automaton" target="_blank">Cellular automata<sup><i class="fa fa-external-link"></sup></i></a> is a model of computation. A famous example of cellular automata would be Conway's game of life. <br><br>We agreed to build a wildfire simulation based on a specific case study in Australia on the <a href="https://en.wikipedia.org/wiki/Black_Saturday_bushfires" target="_blank">Black Saturday fires in February-March 2009<sup><i class="fa fa-external-link"></sup></i></a>. <br><br>Two of the members of our group had no experience coding at all, so me and one other person in our group also had to teach the group members with no experience Python as well as complete the project in time. <br><br>I was responsible for obtaining the wind data and for coding the population model we worked on. The population would occupy cells, if there were a fire in a nearby cell that population would then move away from the fire cell in a random direction. We would measure the amount of casualties for each run of the simulation and how that number changed depending on when they started to move away from the fire.<br><br>We wrote a 42-page scientific report on our findings. Unfortunately the code is not available for this project, but if you would like to read the scientific report, follow this <a href="https://github.com/apberry810/lu_physics_wildfire_sim" target="_blank">github link<sup><i class="fa fa-external-link"></sup></i></a> or click on the image above.</p>
+        </div>
+    </div>
+</body>
+</html>
